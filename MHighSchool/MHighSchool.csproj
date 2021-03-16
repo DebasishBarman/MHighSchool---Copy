@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{014DB78D-6D47-44C0-9396-7E272C731D48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MHighSchool</RootNamespace>
+    <AssemblyName>MHighSchool</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Class.Designer.cs">
+      <DependentUpon>Add Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add FeeTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add FeeTypes.Designer.cs">
+      <DependentUpon>Add FeeTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD SUBJECTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD SUBJECTS.Designer.cs">
+      <DependentUpon>ADD SUBJECTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Student.Designer.cs">
+      <DependentUpon>Delete Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fee Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fee Master.Designer.cs">
+      <DependentUpon>Fee Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mains.Designer.cs">
+      <DependentUpon>Mains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Records.Designer.cs">
+      <DependentUpon>Master Records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters.Designer.cs">
+      <DependentUpon>Masters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pay Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pay Fees.Designer.cs">
+      <DependentUpon>Pay Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment Records.Designer.cs">
+      <DependentUpon>Payment Records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add Class.resx">
+      <DependentUpon>Add Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add FeeTypes.resx">
+      <DependentUpon>Add FeeTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD SUBJECTS.resx">
+      <DependentUpon>ADD SUBJECTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Student.resx">
+      <DependentUpon>Delete Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fee Master.resx">
+      <DependentUpon>Fee Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mains.resx">
+      <DependentUpon>Mains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Records.resx">
+      <DependentUpon>Master Records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters.resx">
+      <DependentUpon>Masters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pay Fees.resx">
+      <DependentUpon>Pay Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment Records.resx">
+      <DependentUpon>Payment Records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordofStudents.resx">
+      <DependentUpon>RecordofStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register Staff.resx">
+      <DependentUpon>Register Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register Student.resx">
+      <DependentUpon>Register Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove Staff.resx">
+      <DependentUpon>Remove Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Master.resx">
+      <DependentUpon>Staff Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff records.resx">
+      <DependentUpon>Staff records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Main.resx">
+      <DependentUpon>Student Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjects Assigned.resx">
+      <DependentUpon>Subjects Assigned.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update delete Class.resx">
+      <DependentUpon>Update delete Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Delete Fee.resx">
+      <DependentUpon>Update Delete Fee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Delete Subjects.resx">
+      <DependentUpon>Update Delete Subjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Delete.resx">
+      <DependentUpon>Update Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Staff.resx">
+      <DependentUpon>Update Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Student.resx">
+      <DependentUpon>Update Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecordofStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordofStudents.Designer.cs">
+      <DependentUpon>RecordofStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register Staff.Designer.cs">
+      <DependentUpon>Register Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register Student.Designer.cs">
+      <DependentUpon>Register Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove Staff.Designer.cs">
+      <DependentUpon>Remove Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Master.Designer.cs">
+      <DependentUpon>Staff Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff records.Designer.cs">
+      <DependentUpon>Staff records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Main.Designer.cs">
+      <DependentUpon>Student Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjects Assigned.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjects Assigned.Designer.cs">
+      <DependentUpon>Subjects Assigned.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update delete Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update delete Class.Designer.cs">
+      <DependentUpon>Update delete Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Delete Fee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Delete Fee.Designer.cs">
+      <DependentUpon>Update Delete Fee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Delete Subjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Delete Subjects.Designer.cs">
+      <DependentUpon>Update Delete Subjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Delete.Designer.cs">
+      <DependentUpon>Update Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Staff.Designer.cs">
+      <DependentUpon>Update Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Student.Designer.cs">
+      <DependentUpon>Update Student.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
